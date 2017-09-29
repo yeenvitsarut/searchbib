@@ -1,0 +1,117 @@
+
+/*grid3*/
+.grid3 .col:nth-of-type(3n+1) {
+	margin-left: 0;
+	clear: left;
+}
+
+/* col */
+.col {
+	background: #FFFFFF;
+	float: left;
+	margin-left: 0.9%;
+	margin-bottom: 0.9%;
+	width: 100%;
+
+	border-radius: 10px;
+}
+
+/* grid3 col */
+.grid3 .col {
+	width: 32.7%;
+}
+
+@media screen and (max-width: 1100px) {
+	/* change grid3 to 2-column */
+	.grid3 .col {
+		width: 48.3%;
+	}
+	.grid3 .col:nth-of-type(3n+1) {
+		margin-left: 0.9%;
+		margin-bottom: 0.5% ;
+		clear: none;
+	}
+	.grid3 .col:nth-of-type(2n+1) {
+		margin-left: 10px;
+		margin-bottom: 1%;
+		clear: left;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.col {
+		width: 100% !important;
+		margin-left: 0 !important;
+		clear: none !important;
+		margin-bottom: 2.5% !important;
+	}
+}
+
+/* grid1 col */
+
+.grid1 {
+	float: left;
+	width: 100%;
+	margin-bottom: 0.7%;
+
+}
+/*ปรับรูปภาพ*/
+.imghd {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.imgcol {
+	width: 100%;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.imgbox {
+	width: 100%;
+	height: 100px;
+    overflow: hidden;
+}
+
+/*ปรับตัวหนังสือและช่องกรอกข้อมูล*/
+
+.textcontrol {
+	text-align: center;
+	padding: 3.5%;
+	line-height:20px;
+	font-size: 17px;
+	font-family:'Prompt', sans-serif !important;
+	height: 50px;
+	overflow: hidden;
+}
+
+.inputcontrol {
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 25px;
+}
+
+
+/*กล่องข่อความ*/
+
+.eventbox {
+	width: 380px;
+	height: 230px
+}
+
+
+/* .leftRes {
+    width: 5%;
+    float: left;
+    padding: 15px;
+}
+.centerRes {
+    width: 80%;
+    float: left;
+    padding: 15px;
+}
+.rightRes {
+    width: 5%;
+    float: left;
+    padding: 15px;
+} */
